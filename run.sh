@@ -15,3 +15,5 @@ sed -ig 's/{PASS}/'$1'/g' /root/shadowsocks/userapiconfig.py
 sed -ig 's/{DB}/ssrpanel/g' /root/shadowsocks/userapiconfig.py
 chmod +x /root/shadowsocks/run.sh
 echo "10 3 * * * root reboot" >> /etc/crontab && echo "15 3 * * * root bash /root/shadowsocks/run.sh" >> /etc/crontab && cat /etc/crontab
+systemctl disable firewalld
+systemctl stop firewalld
