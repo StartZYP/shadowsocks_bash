@@ -1,6 +1,4 @@
-sudo -i
-yum install -y libsodium
-yum install git vim htop wget -y
+yum install git vim htop wget libsodium -y
 cd /root
 yum -y install python-setuptools
 easy_install pip
