@@ -1,3 +1,5 @@
+sudo -i
+yum install -y libsodium
 yum install git vim htop wget -y
 cd /root
 yum -y install python-setuptools
