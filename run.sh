@@ -1,3 +1,5 @@
+sudo yum install epel-release -y
+sudo yum update -y
 yum install git vim htop wget libsodium -y
 cd /root
 yum -y install python-setuptools
