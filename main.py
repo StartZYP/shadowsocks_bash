@@ -40,7 +40,7 @@ if __name__ == "__main__":
             params = {
                 'appToken':'AT_xBP33IgAFegqI7kgJxyIAdvsIhOPtUMB',
                 'url': urltmp,
-                'content': title,
+                'content': title+"    "+urltmp,
                 'topicId':'805',
                 'contentType': 1
 
